@@ -1,0 +1,25 @@
+{
+    "type": [
+        "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+    ],
+    "repository": [
+        "https://github.com/OpenBattTools/BattMo-Server"
+    ],
+    "uuid": "b80747f1-ccf3-40d7-9095-5572d27f678c",
+    "label": [
+        {
+            "text": "BattMo-Atinary Optimization",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Optimizer for battery simulation",
+            "lang": "en"
+        }
+    ],
+    "based_on": [
+        "Item:OSWe7c08b2300f04d0bbb0a55bca8838437"
+    ],
+    "name": "BattmoAtinaryOptimization"
+}

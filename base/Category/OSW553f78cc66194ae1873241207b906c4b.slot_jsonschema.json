@@ -1,0 +1,352 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8e511130cecf4d7fa4177c9c65904fc1?action=raw&slot=jsonschema",
+        {
+            "performance": "Property:HasPerformance",
+            "energyDensity": "Property:HasEnergyDensity",
+            "energyDensity_query_min": "Property:HasEnergyDensity",
+            "workflow_runs": {
+                "_@type": "@id",
+                "@id": "Property:HasWorkflowRuns"
+            },
+            "tool": {
+                "@type": "@id",
+                "@id": "Property:HasTool"
+            },
+            "status": {
+                "@type": "@id",
+                "@id": "Property:HasStatus"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8e511130cecf4d7fa4177c9c65904fc1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "553f78cc-6619-4ae1-8732-41207b906c4b",
+    "title": "BattmoModel",
+    "title*": {
+        "en": "BattMo Model"
+    },
+    "description": "",
+    "description*": {},
+    "name": "BattmoModel",
+    "data_source_maps_DISABLED": [
+        {
+            "id": "api.battmo.open-semantic-lab.org",
+            "source": "https://api.battmo.open-semantic-lab.org/api/run/performance-spec",
+            "source_": "https://demo.open-semantic-lab.org/api/run/performance-spec",
+            "format": "json",
+            "request_object_map": {
+                "geometry": "$.geometry"
+            },
+            "label": "BattMo API",
+            "required": [
+                "geometry"
+            ],
+            "object_map": {
+                "performance": {
+                    "energyDensity": "$.result.energyDensity"
+                }
+            }
+        }
+    ],
+    "properties": {
+        "geometry": {
+            "name": "geometry",
+            "properties": {
+                "faceArea": {
+                    "type": "number",
+                    "default": "0.001",
+                    "title": "faceArea"
+                },
+                "format": {
+                    "type": "string",
+                    "default": "1D",
+                    "title": "format"
+                },
+                "Electrolyte": {
+                    "name": "Electrolyte",
+                    "properties": {
+                        "Separator": {
+                            "name": "Separator",
+                            "properties": {
+                                "thickness": {
+                                    "type": "number",
+                                    "default": "1.5e-05",
+                                    "title": "thickness"
+                                },
+                                "uuid": {
+                                    "type": "string",
+                                    "format": "uuid",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                }
+                            },
+                            "title": "Separator",
+                            "required": [
+                                "uuid"
+                            ]
+                        },
+                        "uuid": {
+                            "type": "string",
+                            "format": "uuid",
+                            "options": {
+                                "hidden": true
+                            }
+                        }
+                    },
+                    "title": "Electrolyte",
+                    "required": [
+                        "uuid"
+                    ]
+                },
+                "NegativeElectrode": {
+                    "name": "NegativeElectrode",
+                    "properties": {
+                        "ActiveMaterial": {
+                            "name": "ActiveMaterial",
+                            "properties": {
+                                "thickness": {
+                                    "type": "number",
+                                    "default": "6.4e-05",
+                                    "title": "thickness"
+                                },
+                                "uuid": {
+                                    "type": "string",
+                                    "format": "uuid",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                }
+                            },
+                            "title": "ActiveMaterial",
+                            "required": [
+                                "uuid"
+                            ]
+                        },
+                        "uuid": {
+                            "type": "string",
+                            "format": "uuid",
+                            "options": {
+                                "hidden": true
+                            }
+                        }
+                    },
+                    "title": "NegativeElectrode",
+                    "required": [
+                        "uuid"
+                    ]
+                },
+                "PositiveElectrode": {
+                    "name": "PositiveElectrode",
+                    "properties": {
+                        "ActiveMaterial": {
+                            "name": "ActiveMaterial",
+                            "properties": {
+                                "thickness": {
+                                    "type": "number",
+                                    "default": "5.7e-05",
+                                    "title": "thickness"
+                                },
+                                "uuid": {
+                                    "type": "string",
+                                    "format": "uuid",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                }
+                            },
+                            "title": "ActiveMaterial",
+                            "required": [
+                                "uuid"
+                            ]
+                        },
+                        "uuid": {
+                            "type": "string",
+                            "format": "uuid",
+                            "options": {
+                                "hidden": true
+                            }
+                        }
+                    },
+                    "title": "PositiveElectrode",
+                    "required": [
+                        "uuid"
+                    ]
+                },
+                "uuid": {
+                    "type": "string",
+                    "format": "uuid",
+                    "options": {
+                        "hidden": true
+                    }
+                }
+            },
+            "title": "geometry",
+            "required": [
+                "uuid"
+            ]
+        },
+        "workflow_runs": {
+            "type": "array",
+            "title": "Workflow Runs",
+            "propertyOrder": 1010,
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "{{#workflow_runs}} <div class='PrefectStatusBadge' data-config='{\"uuid\":\"{{{uuid}}}\", \"host\": \"workflow.battmo.open-semantic-lab.org\", {{=<% %>=}} \"parent\": \"{{FULLPAGENAME}}\", \"parameters\": {\"request\": {\"model_titles\":  [\"{{FULLPAGENAME}}\"] <%={{ }}=%> } } }'></div> {{/workflow_runs}}"
+                }
+            ],
+            "items": {
+                "_$ref": "/wiki/Category:OSWb79812225c7849b78e98f2b3b10498b3?action=raw&slot=jsonschema",
+                "title": "Workflow Run",
+                "required": [
+                    "uuid"
+                ],
+                "properties": {
+                    "uuid": {
+                        "title": "UUID",
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "name": {
+                        "title": "Name",
+                        "description": "Technical / Machine compatible name",
+                        "description*": {
+                            "de": "Technischer / Maschinenkompatibler Name"
+                        },
+                        "type": "string",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "label": {
+                        "type": "array",
+                        "title": "Labels",
+                        "title*": {
+                            "de": "Namen"
+                        },
+                        "description": "Human readable names. You have to assign at least one.",
+                        "description*": {
+                            "de": "Menschenlesbarer Namen. Du musst mindestens einen vergeben."
+                        },
+                        "format": "table",
+                        "eval_template": [
+                            {
+                                "type": "mustache-wikitext",
+                                "mode": "render",
+                                "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#label}} |{{lang}}={{text}} {{/label}} {{=<% %>=}} }}"
+                            }
+                        ],
+                        "items": {
+                            "title": "Label",
+                            "title*": {
+                                "de": "Name"
+                            },
+                            "eval_template": [
+                                {
+                                    "type": "wikitext",
+                                    "mode": "store",
+                                    "value": "{{{text}}}@{{{lang}}}"
+                                }
+                            ],
+                            "$ref": "/wiki/JsonSchema:Label?action=raw"
+                        },
+                        "minItems": 1
+                    },
+                    "status": {
+                        "type": "string",
+                        "format": "autocomplete",
+                        "title": "Status",
+                        "default": "Item:OSWaa8d29404288446a9f3ec7afa4e2a512",
+                        "options": {
+                            "autocomplete": {
+                                "category": "Category:OSW9725d7a91bab4f1aa68f423e4e9bfcf4"
+                            }
+                        }
+                    },
+                    "tool": {
+                        "type": "array",
+                        "title": "Workflows",
+                        "title*": {
+                            "de": "Workflows"
+                        },
+                        "minItems": 1,
+                        "maxItems": 1,
+                        "items": {
+                            "type": "string",
+                            "title": "Workflow",
+                            "title*": {
+                                "de": "Workflow"
+                            },
+                            "format": "autocomplete",
+                            "options": {
+                                "autocomplete": {
+                                    "category": "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "performance": {
+            "name": "performance",
+            "properties": {
+                "energyDensity": {
+                    "type": "number",
+                    "title": "energyDensity"
+                },
+                "uuid": {
+                    "type": "string",
+                    "format": "uuid",
+                    "options": {
+                        "hidden": true
+                    }
+                }
+            },
+            "title": "performance",
+            "required": [
+                "uuid"
+            ]
+        },
+        "energyDensity_query_min": {
+            "type": "number",
+            "options": {
+                "hidden": true,
+                "conditional_visible": {
+                    "modes": "query"
+                },
+                "role": {
+                    "query": {
+                        "filter": "min"
+                    }
+                }
+            }
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW553f78cc66194ae1873241207b906c4b"
+            ]
+        }
+    },
+    "required": [
+        "uuid",
+        "type"
+    ]
+}

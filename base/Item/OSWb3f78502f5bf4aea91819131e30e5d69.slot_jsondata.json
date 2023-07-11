@@ -1,0 +1,16 @@
+{
+    "type": [
+        "Category:OSW02590972aeba46d7864ed492c0c11384"
+    ],
+    "uuid": "b3f78502-f5bf-4aea-9181-9131e30e5d69",
+    "label": [
+        {
+            "text": "BattMo VM",
+            "lang": "en"
+        }
+    ],
+    "network_domain": [
+        "api.battmo.open-semantic-lab.org"
+    ],
+    "name": "BattmoVm"
+}

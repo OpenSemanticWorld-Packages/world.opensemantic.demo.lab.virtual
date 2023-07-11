@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:OSW72eae3c8f41f4a22a94dbc01974ed404"
+    ],
+    "host": [
+        "Item:OSWb3f78502f5bf4aea91819131e30e5d69"
+    ],
+    "hosted_software": [
+        "Item:OSWb80747f1ccf340d790955572d27f678c"
+    ],
+    "domain": "workflow.battmo.open-semantic-lab.org",
+    "uuid": "ff7a28d9-e90c-4a2d-8566-d9e95313abb3",
+    "name": "BattmoAtinaryOptimizationFlow",
+    "label": [
+        {
+            "text": "BattMo-Atinary Optimization Flow",
+            "lang": "en"
+        }
+    ],
+    "based_on": [
+        "Item:OSW491b595f6a024205845bcdf82e6eff79"
+    ],
+    "flow_id": "03172b12-8a0b-4631-928d-578303853478"
+}

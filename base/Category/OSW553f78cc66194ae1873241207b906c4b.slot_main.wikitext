@@ -1,0 +1,18 @@
+== Instances ==
+
+{{#ask: [[Category:OSW553f78cc66194ae1873241207b906c4b]]
+|?HasPerformance.HasEnergyDensity#Wh/l=EnergyDensity
+}}
+
+== Structure ==
+{{#tree:
+{{#ask:
+ [[-HasSubmodel::{{FULLPAGENAME}}]]
+ OR [[-HasSubmodel.-HasSubmodel::{{FULLPAGENAME}}]]
+ OR [[-HasSubmodel.-HasSubmodel.-HasSubmodel::{{FULLPAGENAME}}]]
+ OR [[-HasSubmodel.-HasSubmodel.-HasSubmodel.-HasSubmodel::{{FULLPAGENAME}}]]
+ OR [[-HasSubmodel.-HasSubmodel.-HasSubmodel.-HasSubmodel.-HasSubmodel::{{FULLPAGENAME}}]]
+ |format=tree
+ |parent=-HasSubmodel
+}}
+}}

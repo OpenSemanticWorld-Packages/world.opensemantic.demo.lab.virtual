@@ -1,0 +1,22 @@
+{
+    "type": [
+        "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+    ],
+    "uuid": "e7c08b23-00f0-4d0b-bb0a-55bca8838437",
+    "name": "BattmoSimulation",
+    "label": [
+        {
+            "text": "BattMo Simulation",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Matlab based framework for battery simulation",
+            "lang": "en"
+        }
+    ],
+    "repository": [
+        "https://github.com/OpenBattTools/BattMo-Server"
+    ]
+}

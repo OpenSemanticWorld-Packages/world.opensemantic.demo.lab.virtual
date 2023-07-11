@@ -1,0 +1,162 @@
+{
+    "publisher": "OpenSemanticWorld",
+    "publisherURL": "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.demo.lab.virtual",
+    "author": [
+        "Simon Stier"
+    ],
+    "language": "en",
+    "licenseName": "CC BY-NC 4.0",
+    "packages": {
+        "OSW Virtual Lab Demo": {
+            "globalID": "world.opensemantic.demo.lab.virtual",
+            "label": "OSW Virtual Lab Demo",
+            "description": "Demo content for modelling, simulation and optimization",
+            "version": "0.1.0",
+            "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.demo.lab.virtual/main/base/",
+            "pages": [
+                {
+                    "name": "OSW553f78cc66194ae1873241207b906c4b",
+                    "label": "BattmoModel",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW553f78cc66194ae1873241207b906c4b.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWe7c08b2300f04d0bbb0a55bca8838437",
+                    "label": "BattmoSimulation",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWe7c08b2300f04d0bbb0a55bca8838437.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWe7c08b2300f04d0bbb0a55bca8838437.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWe7c08b2300f04d0bbb0a55bca8838437.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWe7c08b2300f04d0bbb0a55bca8838437.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWb80747f1ccf340d790955572d27f678c",
+                    "label": "BattmoAtinaryOptimization",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWb80747f1ccf340d790955572d27f678c.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWb80747f1ccf340d790955572d27f678c.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWb80747f1ccf340d790955572d27f678c.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWb80747f1ccf340d790955572d27f678c.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW72eae3c8f41f4a22a94dbc01974ed404",
+                    "label": "PrefectFlow",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW72eae3c8f41f4a22a94dbc01974ed404.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW72eae3c8f41f4a22a94dbc01974ed404.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW72eae3c8f41f4a22a94dbc01974ed404.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW72eae3c8f41f4a22a94dbc01974ed404.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW72eae3c8f41f4a22a94dbc01974ed404.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW491b595f6a024205845bcdf82e6eff79",
+                    "label": "BattmoSimulationFlow",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW491b595f6a024205845bcdf82e6eff79.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW491b595f6a024205845bcdf82e6eff79.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW491b595f6a024205845bcdf82e6eff79.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW491b595f6a024205845bcdf82e6eff79.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWff7a28d9e90c4a2d8566d9e95313abb3",
+                    "label": "BattmoAtinaryOptimizationFlow",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWff7a28d9e90c4a2d8566d9e95313abb3.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWff7a28d9e90c4a2d8566d9e95313abb3.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWff7a28d9e90c4a2d8566d9e95313abb3.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWff7a28d9e90c4a2d8566d9e95313abb3.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWb3f78502f5bf4aea91819131e30e5d69",
+                    "label": "BattmoVm",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWb3f78502f5bf4aea91819131e30e5d69.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWb3f78502f5bf4aea91819131e30e5d69.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWb3f78502f5bf4aea91819131e30e5d69.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWb3f78502f5bf4aea91819131e30e5d69.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasEnergyDensity",
+                    "label": "EnergyDensity",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasEnergyDensity.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasEnergyDensity.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasEnergyDensity.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasEnergyDensity.slot_jsondata.json"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

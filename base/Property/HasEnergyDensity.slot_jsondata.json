@@ -1,0 +1,63 @@
+{
+    "type": [
+        "Category:OSW1b15ddcf042c4599bd9d431cbfdf3430"
+    ],
+    "property_type": "Quantity",
+    "name": "EnergyDensity",
+    "ontology_iri": [
+        "https://qudt.org/vocab/quantitykind/EnergyDensity"
+    ],
+    "uuid": "79622499-5259-4f52-9f14-b6b602d15865",
+    "label": [
+        {
+            "text": "HasEnergyDensity",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Energy density is defined as energy per unit volume.",
+            "lang": "en"
+        }
+    ],
+    "main_unit": {
+        "uuid": "5b8270a6-329d-4831-b414-a5ef5d4ca946",
+        "name": "J/m\u00b3",
+        "main_symbol": "J/m\u00b3",
+        "alternative_symbols": [
+            "J/m^3",
+            "Jm^-3"
+        ],
+        "use_as_input_unit": true,
+        "use_as_display_unit": true,
+        "ontology_iri": [
+            "https://qudt.org/vocab/unit/J-PER-M3"
+        ]
+    },
+    "additional_units": [
+        {
+            "conversion_factor_to_main_unit": "0.000277777",
+            "uuid": "4a115623-7513-4df7-8dc0-83ff8a73462b",
+            "name": "Wh/m\u00b3",
+            "main_symbol": "Wh/m\u00b3",
+            "alternative_symbols": [],
+            "use_as_input_unit": true,
+            "use_as_display_unit": true,
+            "ontology_iri": [
+                "https://qudt.org/vocab/unit/W-HR-PER-M3"
+            ]
+        },
+        {
+            "conversion_factor_to_main_unit": "2.7777777777778e-7",
+            "uuid": "4510693d-a05a-4c18-bdf7-baac20e8ff1f",
+            "name": "Wh/l",
+            "main_symbol": "Wh/l",
+            "alternative_symbols": [
+                "Wh/L"
+            ],
+            "use_as_input_unit": true,
+            "use_as_display_unit": true,
+            "ontology_iri": []
+        }
+    ]
+}

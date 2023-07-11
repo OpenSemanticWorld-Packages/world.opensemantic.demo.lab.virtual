@@ -1,0 +1,21 @@
+{
+    "type": [
+        "Category:OSW72eae3c8f41f4a22a94dbc01974ed404"
+    ],
+    "host": [
+        "Item:OSWb3f78502f5bf4aea91819131e30e5d69"
+    ],
+    "hosted_software": [
+        "Item:OSWe7c08b2300f04d0bbb0a55bca8838437"
+    ],
+    "domain": "workflow.battmo.open-semantic-lab.org",
+    "uuid": "491b595f-6a02-4205-845b-cdf82e6eff79",
+    "name": "BattmoSimulationFlow",
+    "label": [
+        {
+            "text": "BattMo Simulation Flow",
+            "lang": "en"
+        }
+    ],
+    "flow_id": "d8078cc2-5f93-4650-85ea-cfdf5a36df89"
+}
