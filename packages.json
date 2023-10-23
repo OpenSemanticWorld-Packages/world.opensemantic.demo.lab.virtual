@@ -11,7 +11,7 @@
             "globalID": "world.opensemantic.demo.lab.virtual",
             "label": "OSW Virtual Lab Demo",
             "description": "Demo content for modelling, simulation and optimization",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.demo.lab.virtual/main/base/",
             "pages": [
                 {
@@ -136,6 +136,40 @@
                         },
                         "jsondata": {
                             "urlPath": "Item/OSWb3f78502f5bf4aea91819131e30e5d69.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW7e0717f191304b4cacc927ea38ee828f",
+                    "label": "BigMapArchivePublisherFlow",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW7e0717f191304b4cacc927ea38ee828f.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW7e0717f191304b4cacc927ea38ee828f.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW7e0717f191304b4cacc927ea38ee828f.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW7e0717f191304b4cacc927ea38ee828f.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWba3abe8b955a4879bd74fa21834c2e1d",
+                    "label": "BigMapArchivePublisher",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWba3abe8b955a4879bd74fa21834c2e1d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWba3abe8b955a4879bd74fa21834c2e1d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWba3abe8b955a4879bd74fa21834c2e1d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWba3abe8b955a4879bd74fa21834c2e1d.slot_jsondata.json"
                         }
                     }
                 },

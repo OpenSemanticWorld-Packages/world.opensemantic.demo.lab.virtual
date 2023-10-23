@@ -1,0 +1,16 @@
+{
+    "type": [
+        "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+    ],
+    "uuid": "ba3abe8b-955a-4879-bd74-fa21834c2e1d",
+    "label": [
+        {
+            "text": "BIG-MAP Archive Publisher",
+            "lang": "en"
+        }
+    ],
+    "based_on": [
+        "Item:OSWf19f5e23ffa84639be34bdf3f1462732"
+    ],
+    "name": "BigMapArchivePublisher"
+}

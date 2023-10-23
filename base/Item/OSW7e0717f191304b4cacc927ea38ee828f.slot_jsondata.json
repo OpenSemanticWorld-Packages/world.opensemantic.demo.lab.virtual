@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSW72eae3c8f41f4a22a94dbc01974ed404"
+    ],
+    "flow_id": "ad5cb7c8-a0fb-42f7-9f31-c52d320e64d3",
+    "host": [
+        "Item:OSWb3f78502f5bf4aea91819131e30e5d69"
+    ],
+    "hosted_software": [
+        "Item:OSWba3abe8b955a4879bd74fa21834c2e1d"
+    ],
+    "domain": "workflow.battmo.open-semantic-lab.org",
+    "uuid": "7e0717f1-9130-4b4c-acc9-27ea38ee828f",
+    "label": [
+        {
+            "text": "BIG-MAP Archive Publisher Flow",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Publishes a dataset to the BIG-MAP Archive",
+            "lang": "en"
+        }
+    ],
+    "based_on": [
+        "Item:OSW7a3c5784ec6e430f914d98dd457925e7"
+    ],
+    "name": "BigMapArchivePublisherFlow"
+}

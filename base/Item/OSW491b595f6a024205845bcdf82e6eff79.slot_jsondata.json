@@ -2,6 +2,7 @@
     "type": [
         "Category:OSW72eae3c8f41f4a22a94dbc01974ed404"
     ],
+    "flow_id": "df629e6c-ba3b-4546-a94a-36916009b094",
     "host": [
         "Item:OSWb3f78502f5bf4aea91819131e30e5d69"
     ],
@@ -16,6 +17,5 @@
             "text": "BattMo Simulation Flow",
             "lang": "en"
         }
-    ],
-    "flow_id": "d8078cc2-5f93-4650-85ea-cfdf5a36df89"
+    ]
 }
