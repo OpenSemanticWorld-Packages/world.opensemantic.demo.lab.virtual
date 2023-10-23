@@ -199,7 +199,7 @@
                 {
                     "type": "mustache-wikitext",
                     "mode": "render",
-                    "value": "{{#workflow_runs}} <div class='PrefectStatusBadge' data-config='{\"uuid\":\"{{{uuid}}}\", \"host\": \"workflow.battmo.open-semantic-lab.org\", {{=<% %>=}} \"parent\": \"{{FULLPAGENAME}}\", \"parameters\": {\"request\": {\"model_titles\":  [\"{{FULLPAGENAME}}\"] <%={{ }}=%> } } }'></div> {{/workflow_runs}}"
+                    "value": "{{#workflow_runs}} <div class='PrefectStatusBadge' data-config='{\"uuid\":\"{{{uuid}}}\", {{=<% %>=}} \"parent\": \"{{FULLPAGENAME}}\", \"parameters\": {\"request\": {\"model_titles\":  [\"{{FULLPAGENAME}}\"] <%={{ }}=%> } } }'></div> {{/workflow_runs}}"
                 }
             ],
             "items": {

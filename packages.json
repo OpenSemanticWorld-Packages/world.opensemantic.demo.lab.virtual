@@ -11,7 +11,7 @@
             "globalID": "world.opensemantic.demo.lab.virtual",
             "label": "OSW Virtual Lab Demo",
             "description": "Demo content for modelling, simulation and optimization",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.demo.lab.virtual/main/base/",
             "pages": [
                 {
