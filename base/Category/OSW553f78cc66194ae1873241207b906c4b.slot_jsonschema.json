@@ -16,6 +16,9 @@
             "status": {
                 "@type": "@id",
                 "@id": "Property:HasStatus"
+            },
+            "doi": {
+                "@id": "Property:HasDoi"
             }
         }
     ],
@@ -337,6 +340,52 @@
             "format": "uuid",
             "options": {
                 "hidden": true
+            }
+        },
+        "doi": {
+            "type": "string",
+            "title": "DOI",
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "_value": "{{=<% %>=}}[https://doi.org/<%={{ }}=%>{{{doi}}}) {{{doi}}}{{=<% %>=}}]<%={{ }}=%>",
+                    "____value": "{{=<% %>=}}[https://sandbox.zenodo.org/record/{{#explode:<%={{ }}=%>{{{doi}}}|zenodo.|1 {{=<% %>=}} }}<%={{ }}=%> {{{doi}}}{{=<% %>=}}]<%={{ }}=%>",
+                    "__value": "<markdown>[![DOI](https://sandbox.zenodo.org/badge/DOI/{{{doi}}}.svg)](https://doi.org/{{{doi}}})</markdown>",
+                    "___value": "<markdown>[![DOI](https://sandbox.zenodo.org/badge/DOI/{{{doi}}}.svg)]{{=<% %>=}}(https://sandbox.zenodo.org/record/{{#explode:<%={{ }}=%>{{{doi}}}|zenodo.|1 {{=<% %>=}} }})</markdown> <%={{ }}=%>",
+                    "value": "{{=<% %>=}}<span class='badge badge-primary bg-primary' style='border-top-right-radius:0;border-bottom-right-radius:0'>DOI</span><span class='badge badge-secondary bg-secondary' style='border-top-left-radius:0;border-bottom-left-radius:0'>[https://sandbox.zenodo.org/record/{{#explode:<%={{ }}=%>{{{doi}}}|zenodo.|1 {{=<% %>=}} }}<%={{ }}=%> <span style='color:white'>{{{doi}}}{{=<% %>=}}</span>]</span><%={{ }}=%>"
+                }
+            ]
+        },
+        "repository_records": {
+            "type": "array",
+            "format": "tabs",
+            "title": "Repositories",
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "{{#repository_records}}<span class='badge badge-primary bg-primary' style='border-top-right-radius:0;border-bottom-right-radius:0'>{{{repository_name}}}</span><span class='badge badge-secondary bg-secondary' style='border-top-left-radius:0;border-bottom-left-radius:0'>[{{{record_link}}} <span style='color:white'>{{{record_pid}}}</span>]</span>{{/repository_records}}"
+                }
+            ],
+            "items": {
+                "type": "object",
+                "title": "Repository",
+                "properties": {
+                    "repository_name": {
+                        "type": "string",
+                        "title": "Repository name"
+                    },
+                    "record_pid": {
+                        "type": "string",
+                        "title": "Record ID"
+                    },
+                    "record_link": {
+                        "type": "string",
+                        "format": "url",
+                        "title": "Record link"
+                    }
+                }
             }
         },
         "type": {

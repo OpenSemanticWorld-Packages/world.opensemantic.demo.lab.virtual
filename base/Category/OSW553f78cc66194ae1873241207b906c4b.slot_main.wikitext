@@ -1,10 +1,13 @@
 == Instances ==
 
 {{#ask: [[Category:OSW553f78cc66194ae1873241207b906c4b]]
+|?Page creator#=Creator / ORCID
 |?HasPerformance.HasEnergyDensity#Wh/l=EnergyDensity
+|?HasWorkflowRuns.HasTool=Workflow
+<!-- |format=datatable -->
 }}
 
-== Structure ==
+==Structure==
 {{#tree:
 {{#ask:
  [[-HasSubmodel::{{FULLPAGENAME}}]]
